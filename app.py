@@ -20,7 +20,7 @@ MODEL_NAMES = [
 ]
 
 # Initialize the TavilySearchResults tool with a specified maximum number of results.
-tool_tavily = TavilySearchResults(max_results=2)  # Allows retrieving up to 2 results
+tool_tavily = TavilySearchResults(max_results=322)  # Allows retrieving up to 2 results
 
 
 # Combine the TavilySearchResults and ExecPython tools into a list.
